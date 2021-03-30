@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "demo-documentation"
+  description: "This is a demo"
+  annotations:
+    github.com/project-slug: emmaindal/demo-documentation
+    backstage.io/techdocs-ref: url:https://github.com/emmaindal/demo-documentation
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "emmaindal"
